@@ -1,5 +1,5 @@
 from flask import Blueprint, request
-from app.controllers.db import get_db
+
 from app.controllers.target import get_all_targets, set_many_targets, disable_many_targets
 
 bp = Blueprint('target', __name__, url_prefix='/target')
